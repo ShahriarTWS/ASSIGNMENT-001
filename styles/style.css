@@ -45,6 +45,9 @@ nav h1{
     font-weight: bolder;
     cursor: pointer;
 }
+nav h1:hover{
+    color: #006A50;
+}
 
 nav button{
     font-size: 18px;
@@ -251,7 +254,16 @@ td{
 .option-container{
     text-align: center;
 }
-
+.ans-submit button{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+    padding: 17px 34px;
+    border-radius: 8px;
+    margin-top: 24px;
+    cursor: pointer;
+}
 
 /* news-part section */
 .news-part{
@@ -384,7 +396,6 @@ td{
     gap: 0px;
     justify-content: center;
     align-items: center;
-    
     /* margin: 0px 265px 0px 265px; */
 }
 
@@ -408,6 +419,7 @@ td{
     border-radius: 0px 10px 10px 0px;
     color: #FFFFFF;
     background-color: #006A50;
+    cursor: pointer;
 
 }
 
@@ -424,6 +436,9 @@ footer h1{
     font-size: 32px;
     color: #0E0E0E;
     font-weight: bolder;
+}
+footer h1:hover{
+    color: #006A50;
 }
 footer hr{
     margin: 32px 240px;
