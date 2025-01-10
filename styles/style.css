@@ -43,6 +43,7 @@ nav h1{
     font-size: 32px;
     color: #0E0E0E;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 nav button{
@@ -51,6 +52,17 @@ nav button{
     padding: 15px 30px;
     color: #006A50;
     background-color: rgba(255, 240, 240, 0);
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+nav button:hover{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: white;
+    background-color: #006A50;
     border: 1px solid #006A50;
     border-radius: 8px;
     cursor: pointer;
@@ -87,8 +99,8 @@ nav button{
     border-radius: 8px;
     cursor: pointer;
 }
+
 .bd-pc{
-    
     width: 400px;
 }
 
@@ -103,6 +115,8 @@ nav button{
     margin-top: 32px;
     gap: 24px;
 }
+
+
 .pillar-item img{
     margin-bottom: 24px;
 }
@@ -126,6 +140,9 @@ nav button{
     padding: 24px;
     background-color: #FFFFFF;
     border-radius: 16px;
+}
+.pillar-item .card-style:hover{
+    background-color: #d6f1e5;
 }
 
 /* vision part */
@@ -308,6 +325,10 @@ td{
     border-radius: 16px;
 }
 
+.donate-tk:hover{
+    background-color: #C6E4D6;
+}
+
 .amounts{
     display: flex;
     justify-content: space-between;
@@ -363,6 +384,7 @@ td{
     gap: 0px;
     justify-content: center;
     align-items: center;
+    
     /* margin: 0px 265px 0px 265px; */
 }
 
@@ -391,8 +413,21 @@ td{
 
 
 /* footer part */
+footer{
+    margin-top: 80px;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 50px;
+}
 footer h1{
+    padding-top: 50px;
     font-size: 32px;
     color: #0E0E0E;
     font-weight: bolder;
+}
+footer hr{
+    margin: 32px 240px;
+}
+.insta{
+    padding:0px 23px;
 }
