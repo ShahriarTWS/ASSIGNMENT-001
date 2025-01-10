@@ -282,3 +282,56 @@ td{
     margin-bottom: 32px;
     overflow: hidden;
 }
+
+/* donate section */
+
+.donate-part{
+    margin: 80px 160px 0px 160px;
+    text-align: center;
+}
+.donate-part h1{
+    margin-bottom: 40px;
+}
+
+.donate-part p{
+    margin-bottom: 32px;
+}
+
+.donate-tk{
+    font-size: 40px;
+    color: #0E0E0E;
+    font-weight: bold;
+    opacity: 80%;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.amounts{
+    display: flex;
+    justify-content: space-between;
+}
+
+#other-amount{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-bottom-color: rgba(14, 14, 14, 0.15);
+    font-size: 20px;
+    text-align: center;
+}
+
+.amount-container{
+    margin: 0px 124px 24px 124px;
+}
+
+.donate-btn{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+    padding: 17px 34px;
+    border-radius: 8px;
+    cursor: pointer;
+}
