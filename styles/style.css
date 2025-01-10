@@ -198,7 +198,7 @@ nav button{
     margin-top: 80px;
 }
 
-.qustion-color{
+.question-color{
     opacity: 100%;
 }
 
@@ -233,4 +233,52 @@ td{
 
 .option-container{
     text-align: center;
+}
+
+
+/* news-part section */
+.news-part{
+    margin-top: 80px;
+}
+
+.news-part h1{
+    margin-bottom: 12px;
+    font-size: 32px;
+    color: #0E0E0E;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.news-container{
+    display: flex;
+    padding: 48px;
+    align-items: center;
+}
+
+.news-part img{
+    border-radius: 24px;
+    margin-right: 32px;
+    overflow: hidden;
+}
+
+.news-part button{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+    padding: 17px 34px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.al-jazira-img{
+    margin-bottom: 12px;
+}
+
+.news-part .date-time {
+    margin-bottom: 12px;
+}
+.news-part .news-article {
+    margin-bottom: 32px;
+    overflow: hidden;
 }
